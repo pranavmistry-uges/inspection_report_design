@@ -34,7 +34,6 @@ const PdfPage6ObservationsPart1 = ({ pageNumber, totalPages }) => {
     <Page size="A4" style={pdfStyles.page}>
       <PdfHeader pageNumber={pageNumber} totalPages={totalPages} />
       <View style={pdfStyles.contentArea}>
-        {/* Title kept only on this starting page */}
         <Text style={pdfStyles.sectionTitle}>
           7. Observation and Photographs with Risk Category
         </Text>

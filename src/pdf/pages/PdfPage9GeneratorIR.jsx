@@ -60,7 +60,6 @@ const PdfPage9GeneratorIR = ({ pageNumber, totalPages }) => {
           ))}
         </View>
 
-        {/* Note at bottom */}
         <View style={pdfStyles.noteContainer}>
           <Text style={pdfStyles.noteText}>
             Note: Risk assessment is based on the IR readings recorded at the time of measurement.

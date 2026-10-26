@@ -33,7 +33,6 @@ const PdfPage7ObservationsPart2 = ({ pageNumber, totalPages }) => {
     <Page size="A4" style={pdfStyles.page}>
       <PdfHeader pageNumber={pageNumber} totalPages={totalPages} />
       <View style={pdfStyles.contentArea}>
-        {/* Table continues directly without repeating title */}
         <View style={pdfStyles.table}>
           <View style={pdfStyles.tableRowHeader}>
             <View style={[pdfStyles.thCell, { width: '9%' }]}>
@@ -85,7 +84,6 @@ const PdfPage7ObservationsPart2 = ({ pageNumber, totalPages }) => {
           ))}
         </View>
 
-        {/* Note at bottom */}
         <View style={pdfStyles.noteContainer}>
           <Text style={pdfStyles.noteTitle}>Note:</Text>
           <Text style={pdfStyles.noteText}>

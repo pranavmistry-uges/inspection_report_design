@@ -155,7 +155,7 @@ const PdfPage10BladeAndSignatures = ({ pageNumber, totalPages }) => {
             </Text>
           </View>
 
-          {/* OEM / OM Representative */}
+          {/* OEM/O&M Representatives */}
           <View style={sigStyles.column}>
             <Text style={sigStyles.roleTitle}>{signatureDetails.oemRep.title}</Text>
             <View style={sigStyles.sigLine} />

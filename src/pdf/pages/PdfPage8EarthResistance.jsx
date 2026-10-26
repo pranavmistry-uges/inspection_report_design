@@ -60,7 +60,6 @@ const PdfPage8EarthResistance = ({ pageNumber, totalPages }) => {
           ))}
         </View>
 
-        {/* Note at bottom */}
         <View style={pdfStyles.noteContainer}>
           <Text style={pdfStyles.noteText}>
             Note: Risk assessment is based on the readings at the time of the measurement as above.
